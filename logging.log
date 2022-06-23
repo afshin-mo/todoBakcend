@@ -1,0 +1,20 @@
+{"level":"info","message":"listen to port number 3000"}
+{"level":"info","message":"listen to port number 3000"}
+{"level":"info","message":"listen to port number 3000"}
+{"level":"info","message":"connected to todoDatabase"}
+{"level":"info","message":"listen to port number 3000"}
+{"level":"info","message":"connected to todoDatabase"}
+{"level":"info","message":"listen to port number 3000"}
+{"level":"info","message":"connected to todoDatabase"}
+{"level":"info","message":"connected to todoDatabase"}
+{"level":"info","message":"connected to todoDatabase"}
+{"level":"info","message":"connected to todoDatabase"}
+{"level":"info","message":"connected to todoDatabase"}
+{"level":"info","message":"listen to port number 3000"}
+{"level":"info","message":"connected to todoDatabase"}
+{"level":"info","message":"listen to port number 3000"}
+{"level":"info","message":"connected to todoDatabase"}
+{"level":"info","message":"listen to port number 3000"}
+{"level":"info","message":"connected to todoDatabase"}
+{"level":"info","message":"listen to port number 3000"}
+{"level":"error","message":"Fatal Error: jwtPrivateKey not provided! Fatal Error: jwtPrivateKey not provided!","stack":"Error: Fatal Error: jwtPrivateKey not provided!\n    at module.exports (C:\\react-prj\\todobackend\\startup\\config.js:7:15)\n    at Object.<anonymous> (C:\\react-prj\\todobackend\\index.js:8:28)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Module.load (internal/modules/cjs/loader.js:950:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:790:14)\n    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)\n    at internal/main/run_main_module.js:17:47"}

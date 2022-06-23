@@ -1,11 +1,14 @@
+require('express-async-errors');
+const logger = require('../logging/logger');
+const winston = require('winston');
 
-module.exports = () =>{
+module.exports = function () {
+
     process.on('uncaughtException',( ex )=>{
-        console.log('handle exception');
-        console.log(ex.message);
+        logger.error(ex.message, ex);
     });
-    process.on('uncaughtRejection',( ex )=>{
-        //console.log('handle rejecgion',ex.message);
-        throw(ex);
+
+    process.on('unhandledRejection',( ex )=>{
+        throw (ex);
     })
 }

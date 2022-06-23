@@ -1,10 +1,11 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
+const logger = require('../logging/logger');
 
 dotenv.config()
-const mongoConnectionString = `mongodb+srv://${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}@cluster0.rqlqi.mongodb.net/myTodoApp?retryWrites=true&w=majority`;
+const mongoConnectionString = process.env.DB_CONNECTION_STRING;
 
 module.exports = ()=>{
-    mongoose.connect(mongoConnectionString)
-    .then( console.log('connected to todoDatabase'));
+    mongoose.connect( mongoConnectionString, { useUnifiedTopology: true })
+    .then( logger.info('connected to todoDatabase'));
 }
